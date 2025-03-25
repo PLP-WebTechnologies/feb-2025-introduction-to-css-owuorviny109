@@ -1,0 +1,63 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Different font */
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header styling using ID selector */
+#main-header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 5px solid #005f99;
+}
+
+/* Card styling using class selector */
+.card {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+ 
+ 
+.image-container {
+    text-align: center;  
+    margin: 20px 0; /* Adds spacing above and below the image */
+}
+
+
+.centered-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 1.5rem; /* Reduced font size */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #007acc;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: auto; /* Push footer to the bottom */
+}
